@@ -37,10 +37,8 @@ cd /root/scripts/dataCopy/
 
 
 
-##Glossary: Quick set up of HDFS encryption zone
-############################################################################  
+## Glossary: Quick set up of HDFS encryption zone
 ### How to set up an encryption zone:  
-# ##########################################################################    
 sudo su hdfs  
 hdfs dfs -mkdir /tmp/zone_encr_test  
 hdfs crypto -createZone -keyName testKey123 -path /tmp/zone_encr_test  
