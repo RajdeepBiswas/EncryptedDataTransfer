@@ -1,5 +1,5 @@
 # EncryptedDataTransfer
-HDFS Encrypted zone inter-cluster copy automation
+HDFS Encrypted zone intra-cluster transfer automation
 
 ## Synopsis:
 In addition to authentication and access control, data protection adds a robust layer of security, by making data unreadable in transit over the network or at rest on a disk. Encryption helps protect sensitive data, in case of an external breach or unauthorized access by privileged users.  
